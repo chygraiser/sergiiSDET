@@ -78,6 +78,7 @@ public class TriangleGeron {
         System.out.println("Полупериметр прямокутного трикутника P="+p);
         s = Math.sqrt(p * (p - a) * (p - b) * (p - c));
         System.out.println("Полоща прямокутного трикутника за формулою Герона S="+s);
+        System.out.print("Thank You!");
 
     }
 }
