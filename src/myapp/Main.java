@@ -21,6 +21,7 @@ package myapp;
 
 */
 
+/* Task#1
 import java.util.Scanner;
 
 public class Main {
@@ -33,6 +34,20 @@ public class Main {
             System.out.println("Even number" + "\nBYE");
         }
         else {
+            System.out.println("Odd number" + "\nBYE");
+        }
+
+    }
+}*/
+
+public class Main {
+    public static void main(String[] args) {
+        double number = 12;
+        System.out.println("Hello in the CheckOddEven program,your number is " + number);
+
+        if (number % 2 == 0) {
+            System.out.println("It is Even number" + "\nBYE");
+        } else {
             System.out.println("Odd number" + "\nBYE");
         }
 
