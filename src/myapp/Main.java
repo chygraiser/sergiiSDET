@@ -58,7 +58,7 @@ public class Main {
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello in the PrintMonthInWord program, please enter number of the month:");
+        System.out.println("Hello in the PrintMonthInWord program, please enter month number from 1 to 12:");
         Scanner scan = new Scanner(System.in);
         int month = scan.nextInt();
         if (month == 1) {
@@ -87,7 +87,7 @@ public class Main {
             System.out.println("Your month is December");
         }
         else {
-            System.out.println("You entered invalid number of the month. Please try again.");
+            System.out.println("Sorry, you have entered an invalid month number. \nPlease try again and enter value from 1 to 12.");
         }
     }
 }
