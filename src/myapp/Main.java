@@ -3,8 +3,8 @@ package myapp;
 /*
 
 1.Написати програму "CheckOddEven" яка друкує "Odd number", якщо змінна непарна, або "Even number", якщо парна.
-        Перед завершенням роботи програма має друкувати "BYE".
-        Значення змінної можна задати вручну через Scanner або присвоїти початкове значення в коді
+  Перед завершенням роботи програма має друкувати "BYE".
+  Значення змінної можна задати вручну через Scanner або присвоїти початкове значення в коді
 2.Написати програму "PrintMonthInWord" яка друкує "JAN", "FEB" ... "DEC" якщо значення int змінної дорівнює 1, 2, 3 ... 12.
 Або повинна вивести "Not a valid month". Розв'язати завдвння 2 способами:
 1) за допомогою операторів if-else
@@ -21,9 +21,20 @@ package myapp;
 
 */
 
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        System.out.println("Hello in the CheckOddEven program, please enter your number");
+        Scanner scan = new Scanner(System.in);
+        double number = scan.nextDouble();
+
+        if (number % 2 == 0 ) {
+            System.out.println("Even number" + "\nBYE");
+        }
+        else {
+            System.out.println("Odd number" + "\nBYE");
+        }
 
     }
 }
