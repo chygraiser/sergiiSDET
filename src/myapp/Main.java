@@ -55,6 +55,10 @@ public class Main {
 
     }
 }*/
+
+
+/* Task#2 V1 - if-else
+
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
@@ -87,7 +91,59 @@ public class Main {
             System.out.println("Your month is December");
         }
         else {
-            System.out.println("Sorry, you have entered an invalid month number. \nPlease try again and enter value from 1 to 12.");
+            System.out.println("Sorry, you have entered an invalid month number. \nPlease try again and enter number from 1 to 12.");
+        }
+    }
+}*/
+
+
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello in the PrintMonthInWord program, please enter month number from 1 to 12:");
+        Scanner scan = new Scanner(System.in);
+        int month = scan.nextInt();
+
+        switch (month) {
+            case 1:
+                System.out.println("Your month is January");
+                break;
+            case 2:
+                System.out.println("Your month is February");
+                break;
+            case 3:
+                System.out.println("Your month is March");
+                break;
+            case 4:
+                System.out.println("Your month is April");
+                break;
+            case 5:
+                System.out.println("Your month is May");
+                break;
+            case 6:
+                System.out.println("Your month is June");
+                break;
+            case 7:
+                System.out.println("Your month is July");
+                break;
+            case 8:
+                System.out.println("Your month is August");
+                break;
+            case 9:
+                System.out.println("Your month is September");
+                break;
+            case 10:
+                System.out.println("Your month is October");
+                break;
+            case 11:
+                System.out.println("Your month is November");
+                break;
+            case 12:
+                System.out.println("Your month is December");
+                break;
+            default:
+                System.out.println("Sorry, you have entered an invalid month number. \nPlease try again and enter number from 1 to 12.");
+                break;
         }
     }
 }
