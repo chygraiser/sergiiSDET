@@ -40,6 +40,7 @@ public class Main {
     }
 }*/
 
+/* Task#1 V2
 public class Main {
     public static void main(String[] args) {
         double number = 12;
@@ -50,6 +51,11 @@ public class Main {
         } else {
             System.out.println("Odd number" + "\nBYE");
         }
+
+    }
+}*/
+public class Main {
+    public static void main(String[] args) {
 
     }
 }
