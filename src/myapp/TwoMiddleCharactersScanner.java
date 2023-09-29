@@ -1,8 +1,13 @@
 package myapp;
 
-public class TwoMiddleCharacters {
+import java.util.Scanner;
+public class TwoMiddleCharactersScanner {
     public static void main(String[] args) {
-        String word = "Programing";
+
+        Scanner scan = new Scanner(System.in);
+        System.out.print("Please enter the word with even characters: ");
+        String word = scan.nextLine();
+
         int leftside;
         int rightside;
         if (word.length() % 2 == 0) {
