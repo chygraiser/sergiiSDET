@@ -8,15 +8,15 @@ public class TwoMiddleCharactersScanner {
         System.out.print("Please enter the word with even characters: ");
         String word = scan.nextLine();
 
-        int leftside;
-        int rightside;
+        int leftSide;
+        int rightSide;
         if (word.length() % 2 == 0) {
-            leftside = word.length() / 2 - 1;
-            rightside = 2;
+            leftSide = word.length() / 2 - 1;
+            rightSide = 2;
         } else {
-            leftside = word.length() / 2;
-            rightside = 1;
+            leftSide = word.length() / 2;
+            rightSide = 1;
         }
-        System.out.print("Two middle characters in the entered word are : " + word.substring(leftside, leftside + rightside));
+        System.out.print("Two middle characters in the entered word are : " + word.substring(leftSide, leftSide + rightSide));
     }
 }
