@@ -3,15 +3,15 @@ package myapp;
 public class TwoMiddleCharacters {
     public static void main(String[] args) {
         String word = "Programing";
-        int leftside;
-        int rightside;
+        int leftSide;
+        int rightSide;
         if (word.length() % 2 == 0) {
-            leftside = word.length() / 2 - 1;
-            rightside = 2;
+            leftSide = word.length() / 2 - 1;
+            rightSide = 2;
         } else {
-            leftside = word.length() / 2;
-            rightside = 1;
+            leftSide = word.length() / 2;
+            rightSide = 1;
         }
-        System.out.print("Two middle characters in the word Programing are : " + word.substring(leftside, leftside + rightside));
+        System.out.print("Two middle characters in the word Programing are : " + word.substring(leftSide, leftSide + rightSide));
     }
 }
