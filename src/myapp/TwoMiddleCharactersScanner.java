@@ -17,6 +17,6 @@ public class TwoMiddleCharactersScanner {
             leftside = word.length() / 2;
             rightside = 1;
         }
-        System.out.print("Two middle characters in the word Programing are : " + word.substring(leftside, leftside + rightside));
+        System.out.print("Two middle characters in the entered word are : " + word.substring(leftside, leftside + rightside));
     }
 }
