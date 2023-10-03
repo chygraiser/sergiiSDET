@@ -1,8 +1,9 @@
 package myapp;
 
+
 import java.util.Scanner;
 import java.lang.Math;
-public class СomparisonOfAbsoluteNumbers {
+public class ComparisonNumbers {
     public static void main(String[] args) {
         System.out.println("Hello in the Сomparison of absolute numbers program. \nPlease enter your first number");
         Scanner scan = new Scanner(System.in);
